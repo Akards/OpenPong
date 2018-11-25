@@ -65,6 +65,7 @@ int main()
 				if (event.key.code == sf::Keyboard::S) gs.sPressed = true;
 				if (event.key.code == sf::Keyboard::Up) gs.UPPressed = true;
 				if (event.key.code == sf::Keyboard::Down) gs.DOWNPressed = true;
+				if (event.key.code == sf::Keyboard::R) gs.reset();
 			} else if (event.type == sf::Event::KeyReleased){
 				if (event.key.code == sf::Keyboard::W) gs.wPressed = false;
 				if (event.key.code == sf::Keyboard::S) gs.sPressed = false;
