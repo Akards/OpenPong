@@ -1,2 +1,1 @@
 Add Pause feature
-Add Reset feature
